@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(240, 239, 239);
+
+font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.head{
+width: 70rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+.tag {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  gap: 2rem;
+  padding: 1rem;
+  padding-left: 6rem;
+
+
+}
+
+.tag-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-right: -2rem;
+}
+
+.tag-podia , .podia{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #4b2aad;
+}
+
+.podia:hover{
+  color:navy;
+}
+.elements{
+  color: black;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.elements:hover{
+  background-color: #fdfbf9;
+  padding: .6rem;
+  border-radius: 2rem;
+}
+
+.tag-sign{
+  padding: 1rem;
+  width: 10rem;
+  text-align: center;
+  border-radius: 3rem;
+  background-color: #4b2aad;
+}
+
+.tag-sign:hover{
+  background-color: navy;
+  cursor: pointer;
+}
+
+.element{
+  color: white;
+  font-weight: 700;
+}
+
+
+.products{
+  margin-top: 5rem;
+  margin-left: 6rem;
+  color: #9c8881;
+  font-size: 12px;
+  font-weight: 500;
+}
